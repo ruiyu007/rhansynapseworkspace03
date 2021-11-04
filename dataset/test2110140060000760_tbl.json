@@ -1,0 +1,27 @@
+{
+	"name": "test2110140060000760_tbl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSynapseAnalytics1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "kkno",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "kkname",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "KKBaseInfo"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

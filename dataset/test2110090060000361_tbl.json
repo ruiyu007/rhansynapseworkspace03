@@ -1,0 +1,27 @@
+{
+	"name": "test2110090060000361_tbl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "link2WS04InnerSQLPool",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "kkno",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "kkname",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "KKBaseInfo"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

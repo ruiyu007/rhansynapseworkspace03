@@ -1,0 +1,27 @@
+{
+	"name": "AzureSynapseAnalyticsTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Link2SampleSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "KKNO",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "KKNAME",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "KKBaseInfo"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}
