@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "rhansynapseworkspace03"
+		},
+		"AzureSynapseAnalytics1_connectionString": {
+			"value": ""
+		},
+		"Link2SampleSQL_connectionString": {
+			"value": ""
+		},
+		"link2WS04InnerSQLPool_connectionString": {
+			"value": ""
+		},
+		"rhansynapseworkspace03-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
+			"value": "https://rhantestsa01.blob.core.windows.net"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://rhanKeyVault01.vault.azure.net/"
+		},
+		"rhansynapseworkspace03-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://dlsg4synapseworkspace.dfs.core.windows.net"
+		}
+	}
+}
